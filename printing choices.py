@@ -6,7 +6,7 @@ ch2=input("Enter choice for vertical or horizontal print :")
 if ch1=='forward':
     for i in range(sp,ep,up):
         if ch2=='horizontal':
-            print(i,ends='')
+            print(i,end='')
         elif ch2=='vertical':
             print(i)
         else:
