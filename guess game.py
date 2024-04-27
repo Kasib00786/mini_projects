@@ -7,3 +7,8 @@ if (y == c):
     print("Congratulation the number was:", c)
 else:
     print("Better luck next time.")
+ch=input("Enter 'exit' to end game :")
+    if ch=='exit':
+        break
+    else:
+        continue
