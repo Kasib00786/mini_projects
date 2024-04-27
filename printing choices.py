@@ -14,7 +14,7 @@ if ch1=='forward':
 elif ch1=='reverse':
     for i in range(ep,sp,-(up)):
         if ch2=='horizontal':
-            print(i,ends='')
+            print(i,end='')
         elif ch2=='vertical':
             print(i)
         else:
